@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tawi</string>
+    <string name="core_designsystem_copy_to_clipboard">Copied</string>
+    <string name="core_designsystem_not_found_email">Email not found</string>
+</resources>

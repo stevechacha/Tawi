@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="save">save</string>
+    <string name="hint_continue">Continue</string>
+    <string name="hint_done">Done</string>
+    <string name="new_product">New Product</string>
+    <string name="shop_local">Shop</string>
+    <string name="buy_again">Buy</string>
+</resources>

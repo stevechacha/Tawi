@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1008543395064",
+    "project_id": "tawi-a63d3",
+    "storage_bucket": "tawi-a63d3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008543395064:android:927e07b099cba2415c1f0d",
+        "android_client_info": {
+          "package_name": "com.freshtawi.tawi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_RgK3Fo4Hch5dxGeglwEJTXHcsvEQWGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
