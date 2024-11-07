@@ -70,7 +70,7 @@ fun ProductCardItem() {
                 contentAlignment = Alignment.Center,
             ) {
                 Icon(
-                    painter = painterResource(id = R.drawable.icon_image),
+                    painter = painterResource(id = R.drawable.ic_start),
                     contentDescription = null,
                 )
             }

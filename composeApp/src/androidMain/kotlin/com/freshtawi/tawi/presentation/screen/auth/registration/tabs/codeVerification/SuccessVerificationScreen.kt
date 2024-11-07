@@ -45,7 +45,7 @@ fun SuccessVerificationScreen(
             contentAlignment = Alignment.Center
         ) {
             Image(
-                painter = painterResource(id = R.drawable.icon_image),
+                painter = painterResource(id = R.drawable.cuate),
                 contentDescription = Resources.strings.successVerificationMessage,
                 colorFilter = ColorFilter.tint(MaterialTheme.colorScheme.primary),
                 modifier = Modifier.fillMaxSize()

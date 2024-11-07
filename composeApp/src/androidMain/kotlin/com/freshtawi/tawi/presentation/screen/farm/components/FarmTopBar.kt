@@ -90,15 +90,13 @@ fun FarmTopBar(
                                 Image(
                                     painter = painterResource(Resources.images.vunaIcon),
                                     contentDescription = null,
-                                    modifier = Modifier
-                                        .width(32.dp)
-                                        .height(24.dp)
-                                        .align(Alignment.CenterHorizontally)
+                                    modifier = Modifier.width(32.dp).height(24.dp)
+                                        .align(Alignment.CenterHorizontally
+                                        )
                                 )
                         }
                     }
                 },
-
                 actions = {
                     if (showMenuBar) {
                         IconButton(onClick = { onClickAction()}) {
@@ -179,9 +177,9 @@ fun FarmTopBar(
                                     }
                                 }
 
-                                IconButton(onClick = {
-                                    onSearchParamChange(searchParam)
-                                }) {
+                                IconButton(
+                                    onClick = { onSearchParamChange(searchParam) }
+                                ) {
                                     Icon(
                                         imageVector = Icons.Default.Search,
                                         contentDescription = null

@@ -66,7 +66,7 @@ fun PesticideCardItem() {
                 contentAlignment = Alignment.Center,
             ) {
                 Icon(
-                    painter = painterResource(id = R.drawable.icon_image),
+                    painter = painterResource(id = R.drawable.ic_calendar),
                     contentDescription = null,
                     modifier = Modifier.fillMaxSize()
                 )

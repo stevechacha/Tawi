@@ -67,22 +67,22 @@ fun getAppSettingsItems():List<AppSetting> {
         AppSetting(
             title = Resources.strings.securityTitle,
             subTitle = Resources.strings.securitySubtitle,
-            icon = R.drawable.settings_icon
+            icon = R.drawable.ic_security
         ),
         AppSetting(
             title = Resources.strings.changeLanguageTitle,
             subTitle = Resources.strings.changeLanguageSubTitle,
-            icon = R.drawable.settings_icon
+            icon = R.drawable.ic_language
         ),
         AppSetting(
             title = Resources.strings.supportTitle,
             subTitle = Resources.strings.supportSubTitle,
-            icon = R.drawable.settings_icon
+            icon = R.drawable.ic_support
         ),
         AppSetting(
             title = Resources.strings.aboutUsTitle,
             subTitle = Resources.strings.aboutUsSubTitle,
-            icon = R.drawable.settings_icon
+            icon = R.drawable.ic_about
         )
     )
 }

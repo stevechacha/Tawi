@@ -66,13 +66,13 @@ fun AnimatedCardItem(card: CardItem) {
 
 fun getCardImages(): List<CardItem> = listOf(
     CardItem(
-        R.drawable.ic_mango,
+        R.drawable.star,
     ),
     CardItem(
-        R.drawable.ic_mango,
+        R.drawable.star,
     ),
     CardItem(
-        R.drawable.ic_mango,
+        R.drawable.star,
     ),
 )
 

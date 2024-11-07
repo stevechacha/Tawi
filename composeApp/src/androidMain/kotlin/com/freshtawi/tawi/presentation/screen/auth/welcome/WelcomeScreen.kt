@@ -56,12 +56,12 @@ fun WelcomeScreen(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center
             ) {
-                Icon(
-                    painter = painterResource(id = R.drawable.icon_image),
-                    contentDescription = null,
-                    modifier = Modifier.size(200.dp),
-                    tint = MaterialTheme.colorScheme.primary
-                )
+//                Icon(
+//                    painter = painterResource(id = R.drawable.icon_image),
+//                    contentDescription = null,
+//                    modifier = Modifier.size(200.dp),
+//                    tint = MaterialTheme.colorScheme.primary
+//                )
                 Text(
                     text = Resources.strings.welcomeMessage,
                     fontSize = 36.sp,

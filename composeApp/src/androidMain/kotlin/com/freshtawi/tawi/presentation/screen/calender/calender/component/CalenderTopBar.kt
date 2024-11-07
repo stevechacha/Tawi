@@ -100,7 +100,7 @@ fun CalenderTopBar(
                     if (showMenuBar) {
                         IconButton(onClick = { }) {
                             Image(
-                                painter = painterResource(id = R.drawable.shopping),
+                                painter = painterResource(id = R.drawable.ic_shopping_cart),
                                 contentDescription = null,
                                 modifier = Modifier.size(24.dp),
                             )

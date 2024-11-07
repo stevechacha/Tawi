@@ -71,7 +71,6 @@ fun NewFarmCardComponent(
                 AsyncImage(
                     model = ImageRequest.Builder(LocalContext.current)
                         .data(farm.farmImageUrl).build(),
-                    placeholder = painterResource(R.drawable.ic_mango),
                     contentDescription = Resources.strings.farm,
                     contentScale = ContentScale.Crop,
                     modifier = Modifier
@@ -140,7 +139,6 @@ fun CardRow(
         AsyncImage(
             model = ImageRequest.Builder(LocalContext.current)
                 .data(productCrop.image).build(),
-            placeholder = painterResource(R.drawable.ic_mango),
             contentDescription = Resources.strings.farm,
             contentScale = ContentScale.Crop,
             modifier = modifier

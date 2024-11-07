@@ -34,7 +34,7 @@ fun AccountTopBar() {
         actions = {
              IconButton(onClick = { /*TODO*/ }) {
                  Icon(
-                     painter = painterResource(id = R.drawable.settings_icon) ,
+                     painter = painterResource(id = R.drawable.ic_settings) ,
                      contentDescription = "Settings",
                      modifier = Modifier.size(25.dp)
                  )
